@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My mini piano</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width maximum-scale=1.0 user-scalable=no">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+<div id="FullPage">
+	
+	<div id="PianoArea">
+		<div class="first">
+			<div class="FTL p"></div>
+			<div class="FTR p"></div>
+			<div class="Ftooth p"></div>
+			<div class="Ftooth p"></div>
+			<div class="Ftooth p"></div>
+		</div>
+		<div class="second">
+			<div class="STL p"></div>
+			<div class="STM p"></div>
+			<div class="STR p"></div>
+			<div class="Stooth p"></div>
+			<div class="Stooth p"></div>
+			<div class="Stooth p"></div>
+			<div class="Stooth p"></div>
+		</div>
+		<div class="third">
+			<div class="TTL p"></div>
+			<div class="TTR p"></div>
+			<div class="Ttooth p"></div>
+			<div class="Ttooth p"></div>
+			<div class="Ttooth p"></div>
+		</div>
+	</div>
+
+</div>
+
+<div class="clearfix M">
+	<div class="fl-left w-20 out"></div>
+	<div class="fl-left w-20 out"></div>
+	<div class="fl-left w-20 out"></div>
+	<div class="fl-left w-20 out"></div>
+	<div class="fl-left w-20 out"></div>
+	<div class="fl-left w-20 out"></div>
+	<div class="fl-left w-20 out"></div>
+</div>
+
+<audio data-key="65" src="http://carolinegabriel.com/demo/js-keyboard/sounds/040.wav"></audio>
+<audio data-key="87" src="http://carolinegabriel.com/demo/js-keyboard/sounds/041.wav"></audio>
+<audio data-key="83" src="http://carolinegabriel.com/demo/js-keyboard/sounds/042.wav"></audio>
+<audio data-key="69" src="http://carolinegabriel.com/demo/js-keyboard/sounds/043.wav"></audio>
+<audio data-key="68" src="http://carolinegabriel.com/demo/js-keyboard/sounds/044.wav"></audio>
+<audio data-key="70" src="http://carolinegabriel.com/demo/js-keyboard/sounds/045.wav"></audio>
+<audio data-key="84" src="http://carolinegabriel.com/demo/js-keyboard/sounds/046.wav"></audio>
+<audio data-key="71" src="http://carolinegabriel.com/demo/js-keyboard/sounds/047.wav"></audio>
+<audio data-key="89" src="http://carolinegabriel.com/demo/js-keyboard/sounds/048.wav"></audio>
+<audio data-key="72" src="http://carolinegabriel.com/demo/js-keyboard/sounds/049.wav"></audio>
+<audio data-key="85" src="http://carolinegabriel.com/demo/js-keyboard/sounds/050.wav"></audio>
+<audio data-key="74" src="http://carolinegabriel.com/demo/js-keyboard/sounds/051.wav"></audio>
+<audio data-key="75" src="http://carolinegabriel.com/demo/js-keyboard/sounds/052.wav"></audio>
+<audio data-key="79" src="http://carolinegabriel.com/demo/js-keyboard/sounds/053.wav"></audio>
+<audio data-key="76" src="http://carolinegabriel.com/demo/js-keyboard/sounds/055.wav"></audio>
+<audio data-key="80" src="http://carolinegabriel.com/demo/js-keyboard/sounds/055.wav"></audio>
+<audio data-key="186" src="http://carolinegabriel.com/demo/js-keyboard/sounds/056.wav"></audio>
+<script>
+var keys = document.querySelectorAll('.p');
+var audios = document.querySelectorAll('audio');
+
+keys[0].addEventListener('click', function(e){
+	audios[0].play()
+})
+keys[1].addEventListener('click', function(e){
+	audios[1].play()
+})
+keys[2].addEventListener('click', function(e){
+	audios[2].play()
+})
+keys[3].addEventListener('click', function(e){
+	audios[3].play()
+})
+keys[4].addEventListener('click', function(e){
+	audios[4].play()
+})
+keys[5].addEventListener('click', function(e){
+	audios[5].play()
+})
+keys[6].addEventListener('click', function(e){
+	audios[6].play()
+})
+keys[7].addEventListener('click', function(e){
+	audios[7].play()
+})
+keys[8].addEventListener('click', function(e){
+	audios[8].play()
+})
+keys[9].addEventListener('click', function(e){
+	audios[9].play()
+})
+keys[10].addEventListener('click', function(e){
+	audios[10].play()
+})
+keys[11].addEventListener('click', function(e){
+	audios[11].play()
+})
+keys[12].addEventListener('click', function(e){
+	audios[12].play()
+})
+keys[13].addEventListener('click', function(e){
+	audios[13].play()
+})
+keys[14].addEventListener('click', function(e){
+	audios[14].play()
+})
+keys[15].addEventListener('click', function(e){
+	audios[15].play()
+})
+keys[16].addEventListener('click', function(e){
+	audios[16].play()
+})
+</script>
+
+</body>
+</html>
